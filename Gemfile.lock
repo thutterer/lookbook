@@ -88,6 +88,8 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.8-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.13.8-x86_64-linux)
+      racc (~> 1.4)
     parallel (1.22.1)
     parser (3.1.2.1)
       ast (~> 2.4.1)
@@ -158,7 +160,8 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
-    sqlite3 (1.5.0-arm64-darwin)
+    sqlite3 (1.5.2-arm64-darwin)
+    sqlite3 (1.5.2-x86_64-linux)
     standard (1.16.1)
       rubocop (= 1.35.1)
       rubocop-performance (= 1.14.3)
@@ -183,6 +186,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   actionpack
@@ -194,7 +198,7 @@ DEPENDENCIES
   puma
   rspec-rails (~> 5)
   selenium-webdriver
-  sqlite3 (~> 1.4)
+  sqlite3 (~> 1.5)
   standard (~> 1.1)
 
 BUNDLED WITH
